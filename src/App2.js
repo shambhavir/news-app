@@ -1,10 +1,9 @@
 import React from "react";
 
-import { getEntertainment} from "./api";
+import { getSports} from "./api";
 import ArticleList from "./components/articleList";
 import SearchBar from "./components/searchBar";
 import { Container, Header } from "semantic-ui-react";
-import { Button } from '@material-ui/core';
 import './App.css';
 import TypeIt from "typeit-react";
 class App2 extends React.Component {
@@ -19,7 +18,7 @@ class App2 extends React.Component {
   searchForTopic = async topic => {
     try {
       this.setState({ loading: true });
-      const response = await getEntertainment(topic);
+      const response = await getSports(topic);
       // const response2 = await getTechnology(topic)
       this.setState({
         articles: response.articles,
@@ -50,16 +49,13 @@ class App2 extends React.Component {
 
   
       .type("explore ")
-      .type("entertainment")
+      .type("NBA results")
       .pause(500)
-      .delete(13)
-      .type("technology")
-      .pause(500)
-      .delete(10)
-      .type("sports")
+      .delete(11)
+      .type("Big 10")
       .pause(500)
       .delete(6)
-      .type("your world")
+      .type("the world of sports")
     return instance;
   }}
   

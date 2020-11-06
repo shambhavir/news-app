@@ -2,26 +2,49 @@
    import {Link } from "react-router-dom";
    import React from 'react';
    import TypeIt from "typeit-react";
-
+  import newsChoice from "./newsChoice"; 
    import DynamicFont from 'react-dynamic-font';
+   import { Button, Form,Container, Header } from "semantic-ui-react";
 
     function Page1() {
         return (
-         
-          <div className = "main" style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh', fontSize: '110px'}}>
-           <div class="powr-weather" id="682de827_1604609677"></div><script src="https://www.powr.io/powr.js?platform=react"></script>
-          
-           <Link to="/app"><button>
+         <Container>
+           <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+           <Link to="/app3">
+<button class="massive ui toggle purple button" tabindex = "2">
+Technology
+</button>
+</Link>
+<Link to="/app">
+  <button class="massive ui toggle purple button" tabindex = "2">
+  Entertainment 
+</button>
+</Link>
+<Link to="/app2">
+  <button class="massive ui toggle purple button" tabindex = "2">
+  Sports 
+</button>
+</Link>
+           </Header>
+           <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+             News. Your Way. 
+             </Header>
+
+             <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+             </Header>
+             <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+
+          <div className = "main" style={{color: 'purple', display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh', fontSize: '200px'}}>
+{/*           
+           <Link to="/newsChoice"><button>
               Your daily
             </button>
-            </Link>
+            </Link> */}
          
 
             <TypeIt 
   getBeforeInit={instance => {
     instance
-
-  
       .type("news")
       .pause(500)
       .delete(4)
@@ -77,22 +100,16 @@
       .type("Nachrichten")
       .pause(500)
       .delete(11)
-      .type("news")
-      
-      
-
-      
-
-      
-
-      
+      .type("news");
     // Remember to return it!
     return instance;
   }}
   
 />
           </div>
+          </Header>
 
+          </Container>
         )
 
         }

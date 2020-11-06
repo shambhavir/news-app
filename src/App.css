@@ -22,9 +22,9 @@ form {
 }
 
 button {
-  background-color: #FF5A5A;
+  background-color: #9c24b4;
   color: #fff;
-  font: inherit;
+  font: inherit; 
   border: none;
   border-radius: 3px;
   outline: none;
@@ -53,7 +53,7 @@ input:focus {
   list-style-type: none;
   border-radius: 6px;
   margin-bottom: 1em;
-  background: pink;
+  background: rgb(217, 173, 226);
   box-shadow: 0px 2px 6px 2px rgba(207, 16, 16, 0.133);
   text-align:center;
 }

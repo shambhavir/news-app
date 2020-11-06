@@ -22,12 +22,12 @@ class SearchBar extends React.Component {
         <Form onSubmit={this.handleSubmit}>
           <Form.Group>
             <Form.Input
-              placeholder="Search ent/tech/sports"
+              placeholder="Search"
               name="topic"
               value={this.state.searchTopic}
               onChange={this.handleChange}
             />
-            <Button type="submit" color="pink">
+            <Button type="submit" color="purple">
               Search
             </Button>
           </Form.Group>

@@ -51,16 +51,16 @@ class App extends React.Component {
 
   
       .type("explore ")
-      .type("entertainment")
+      .type("the bachlorette")
       .pause(500)
-      .delete(13)
-      .type("technology")
+      .delete(15)
+      .type("US politics")
       .pause(500)
-      .delete(10)
-      .type("sports")
+      .delete(11)
+      .type("SNL")
       .pause(500)
-      .delete(6)
-      .type("your world")
+      .delete(3)
+      .type("the world of entertainment")
     return instance;
   }}
   
