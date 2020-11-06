@@ -9,6 +9,7 @@
     function Page1() {
         return (
          <Container>
+            <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
            <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
            <Link to="/app3">
 <button class="massive ui toggle purple button" tabindex = "2">

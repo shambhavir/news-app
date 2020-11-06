@@ -65,6 +65,8 @@ class App3 extends React.Component {
   
 />
         </Header>
+        <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
+
         <SearchBar searchForTopic={this.searchForTopic} />
         <p style={{ textAlign: "center" }}>
           Powered by <a href="https://newsapi.org/">NewsAPI.org</a>

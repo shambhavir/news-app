@@ -42,6 +42,8 @@ class App2 extends React.Component {
     return (
 
       <Container>
+                      <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
+
         <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
         <TypeIt 
   getBeforeInit={instance => {

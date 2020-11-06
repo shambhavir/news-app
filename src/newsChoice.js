@@ -17,6 +17,7 @@ import React from "react";
 
 //           </div>
 <Container>
+    
         <Header as="h2" style={{ textAlign: "center", margin: 20, fontSize: "110px" }}>
         
         </Header>

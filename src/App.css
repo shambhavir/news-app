@@ -53,7 +53,7 @@ input:focus {
   list-style-type: none;
   border-radius: 6px;
   margin-bottom: 1em;
-  background: rgb(217, 173, 226);
+  background: rgb(244, 212, 250);
   box-shadow: 0px 2px 6px 2px rgba(207, 16, 16, 0.133);
   text-align:center;
 }
