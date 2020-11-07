@@ -22,7 +22,7 @@ Note: There are some dependencies/technologies in package.json that are not ment
 * Users can search for pertaining news based on what topic they chose to read about
 * Sleek, simple, fun, news reading application
 
-![Optional Text] master/news-app/Screen Shot 2020-11-06 at 8.21.16 PM.png
+![Optional Text] master/news-app/webapp.png
 
 ### Setup
 * Create a folder in your local directory where you would like to begin/run this project
