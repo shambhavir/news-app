@@ -22,7 +22,7 @@ Note: There are some dependencies/technologies in package.json that are not ment
 * Users can search for pertaining news based on what topic they chose to read about
 * Sleek, simple, fun, news reading application
 
-![alt text](https://github.com/shambhavir/news-app/blob/master/sports.png | 1x1)
+![alt text](https://github.com/shambhavir/news-app/blob/master/sports.png)
 
 ### Setup
 * Create a folder in your local directory where you would like to begin/run this project
