@@ -1,3 +1,4 @@
+//footer, only displaying on landing page, has a link to my personal website as well
 import React from "react";
 import "./footer.css"; 
 const footer = () => (
@@ -7,5 +8,4 @@ const footer = () => (
         </p>
   </div>
 );
-
 export default footer;
