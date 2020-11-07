@@ -1,3 +1,4 @@
+//Grid, Header, Image, and List from semantic-ui are used to nicely display article information 
 import React from "react";
 import { Grid, Header, Image, List } from "semantic-ui-react";
 
