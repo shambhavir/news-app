@@ -1,6 +1,4 @@
-
 import React from "react";
-
 import { getEntertainment} from "./api";
 import ArticleList from "./components/articleList";
 import SearchBar from "./components/searchBar";
@@ -44,14 +42,11 @@ class App extends React.Component {
     return (
 
       <Container>
-                    <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
-
+       <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
         <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
         <TypeIt 
   getBeforeInit={instance => {
     instance
-
-  
       .type("explore ")
       .type("the bachlorette")
       .pause(500)
