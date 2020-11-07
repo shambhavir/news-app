@@ -72,7 +72,7 @@ function Page1() {
         <Header
           as="h2"
           style={{
-            padding: "40px",
+            padding: "35px",
             color: "purple",
             textAlign: "center",
             margin: 20,
