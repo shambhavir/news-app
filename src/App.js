@@ -12,14 +12,13 @@ class App extends React.Component {
     searchTopic: "",
     totalResults: "",
     loading: false,
-    apiError: ""
+    apiError: "" //how all the article data will be accepted and stored 
   };
 
   searchForTopic = async topic => {
     try {
       this.setState({ loading: true });
-      const response = await getEntertainment(topic);
-      // const response2 = await getTechnology(topic)
+      const response = await getEntertainment(topic); //gets articles relating to the category of entertainment 
       this.setState({
         articles: response.articles,
         searchTopic: topic,
@@ -40,7 +39,7 @@ class App extends React.Component {
       totalResults
     } = this.state;
     return (
-
+//below contains the search tool for the entertaiment news section 
       <Container>
        <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
         <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
@@ -68,7 +67,7 @@ class App extends React.Component {
           Results from <a href="https://newsapi.org/">NewsAPI.org</a>
         </p>
         {loading && (
-          <p style={{ textAlign: "center" }}>Fetching your daily scoop...</p>
+          <p style={{ textAlign: "center" }}>Fetching your daily scoop...</p> //loading the articles 
         )}
         {articles.length > 0 && (
           <Header as="h4" style={{ textAlign: "center", margin: 0 }}>
@@ -81,11 +80,6 @@ class App extends React.Component {
       </Container>
     );
   }
-
-
-
-
-
   
 }
 
