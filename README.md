@@ -37,8 +37,6 @@ Note: There are some dependencies/technologies in package.json that are not ment
 ### Troubleshooting
 * If you are not building this application and are viewing on Heroku:
     * If you have loading issues, try a different browser
-    * Else visit the same site hosted on GitHub pages: https://shambhavir.github.io/news-app/
-
 Enjoy using my application! 
 
 
