@@ -1,3 +1,4 @@
+//this page contains the 'routing' for each of the entertainment, tech, and sports buttons
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Header, Button } from "semantic-ui-react";
