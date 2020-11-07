@@ -1,3 +1,4 @@
+//searchBar which is used in each of the news topic pages to search for articles by the user 
 import React from "react";
 import { Button, Form } from "semantic-ui-react";
 
