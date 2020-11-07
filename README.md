@@ -5,7 +5,7 @@ A simple web app that allows users to read the scoop on entertainment, technolog
 * Technologies/Frameworks/Packages
 * Features 
 * Setup
-* What's contained in each of my folder's?
+* What's contained in each of my folders?
 * Troubleshooting
 
 ### Technologies/Frameworks/Packages
