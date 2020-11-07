@@ -36,13 +36,13 @@ Note: There are some dependencies/technologies in package.json that are not ment
 * Business API key is in my api.js file, which can be used for API calls (it is not my personal key, so fine to use)
 
 ### Folder Contents
-* ####Build file contains code/files from npm build, when I prepared my application for deployment. Does not contain much pertaining code. 
-* ####node_modules contains all node packages when I installed npm and yarn for creating my React application. 
+* Build file contains code/files from npm build, when I prepared my application for deployment. Does not contain much pertaining code. 
+* node_modules contains all node packages when I installed npm and yarn for creating my React application. 
    * Can check node/npm/yarn version you have (if already installed) by typing node -v or npm -v or yarn -v in your terminal
-* ####protected-falls-74694: does not contain any pertinent information, build files from Heroku deployment.
-* ####public contains index.html, favicon.png, and other similar files that are produced when creating a React app. I did not make any changes to these files.
-* ####src contains all the code I wrote, which will contain pertinent information. 
-* ####package.json and yarn.lock contain information on dependencies/packages I installed for my project
+* protected-falls-74694: does not contain any pertinent information, build files from Heroku deployment.
+* public contains index.html, favicon.png, and other similar files that are produced when creating a React app. I did not make any changes to these files.
+* src contains all the code I wrote, which will contain pertinent information. 
+* package.json and yarn.lock contain information on dependencies/packages I installed for my project
 
 ### Troubleshooting
 * If you are not building this application and are viewing on Heroku:
