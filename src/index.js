@@ -1,5 +1,6 @@
-
-
+//using BrowserRouter to route the links to our different pages 
+//semantic UI helps with formatting 
+//Link is used to link different pages 
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
@@ -16,7 +17,6 @@ const rootElement = document.getElementById("root");
     ReactDOM.render(
       <BrowserRouter>
        <Switch>
-
         <Route exact path="/" component={Page1} />
         <Route path="/newsChoice" component={newsChoice} />
         <Route path="/app" component={App}/>
