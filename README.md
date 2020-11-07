@@ -8,7 +8,7 @@ A simple web app that allows users to read the scoop on entertainment, technolog
 * What's contained in each of my folders?
 * Troubleshooting
 
-##Note: all of the files have comments, if more information is needed. 
+## Note: all of the files have comments, if more information is needed. 
 
 ### Technologies/Frameworks/Packages
 * React.js
@@ -19,7 +19,7 @@ A simple web app that allows users to read the scoop on entertainment, technolog
 * React Router-DOM
 * NewsAPI from RapidAPI 
 
-##Note: There are some dependencies/technologies in package.json that are not mentioned here since I did not end up needing them in my development. 
+## Note: There are some dependencies/technologies in package.json that are not mentioned here since I did not end up needing them in my development. 
 
 ### Features
 * Landing page features the time in EST, options to choose news in entertainment, technology, or sports
