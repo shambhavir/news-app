@@ -37,6 +37,7 @@ Note: There are some dependencies/technologies in package.json that are not ment
 ### Troubleshooting
 * If you are not building this application and are viewing on Heroku:
     * If you have loading issues, try a different browser
+    * Additionally, try reloading the Heroku site after 1 minute, sometimes there is a outage
 Enjoy using my application! 
 
 
