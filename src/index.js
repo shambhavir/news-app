@@ -19,9 +19,9 @@ const rootElement = document.getElementById("root");
        <Switch>
         <Route exact path="/" component={Page1} />
         <Route path="/newsChoice" component={newsChoice} />
-        <Route path="/app" component={App}/>
-        <Route path="/app2" component={App2}/>
-        <Route path="/app3" component={App3}/>
+        <Route path="/app" component={App}/> //entertainments news searches page 
+        <Route path="/app2" component={App2}/> //sports news searches page 
+        <Route path="/app3" component={App3}/> //technology news searches page
       </Switch>
       </BrowserRouter>,
       rootElement,
