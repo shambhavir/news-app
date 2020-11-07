@@ -1,0 +1,87 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 45em;
+  display: grid;
+  gap: 1em;
+  margin: 3em;
+  text-align:center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1em;
+}
+
+button {
+  background-color: #9c24b4;
+  color: #fff;
+  font: inherit; 
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0.5em 1.5em;
+  text-align:center;
+}
+
+button:active {
+  background-color: black;
+}
+
+input {
+  border: 1px solid #999;
+  border-radius: 3px;
+  font: inherit;
+  padding: 0.5em;
+  outline: none;
+}
+
+input:focus {
+  outline: auto #17f;
+}
+
+.item {
+  padding: 1em;
+  list-style-type: none;
+  border-radius: 6px;
+  margin-bottom: 1em;
+  background: rgb(244, 212, 250);
+  box-shadow: 0px 2px 6px 2px rgba(207, 16, 16, 0.133);
+  text-align:center;
+}
+
+.item .title {
+  font-size: 100%;
+}
+
+.item .description {
+  margin: 1em 0;
+}
+
+.item .thumbnail {
+  float: right;
+  border-radius: 12px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.item .meta {
+  font-size: 80%;
+  font-weight: bold;
+  color: #555;
+}
+
+.item .provider-thumbnail {
+  margin-right: 0.5em;
+}
+
+.item .meta > *:not(:last-child) {
+  margin-right: 2em;
+}
+
