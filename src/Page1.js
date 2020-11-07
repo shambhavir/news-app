@@ -1,4 +1,3 @@
-// import React from "react";
 import { Link } from "react-router-dom";
 import React from "react";
 import TypeIt from "typeit-react";
@@ -18,9 +17,9 @@ let options = {
     minute: "#fff",
     hour: "#fff",
   },
-  seconds: 1, // set your
-  minutes: 57, // own
-  hours: 18, // time here.
+  seconds: 1, 
+  minutes: 57, 
+  hours: 18, 
 };
 
 function Page1() {
@@ -80,7 +79,6 @@ function Page1() {
             fontSize: "150px",
           }}
         >
-          {/* News. Your Way. */}
           <TypeIt
             getBeforeInit={(instance) => {
               instance
@@ -159,7 +157,6 @@ function Page1() {
                 .delete(5)
                 .type("news");
 
-              // Remember to return it!
               return instance;
             }}
           />
@@ -181,70 +178,6 @@ function Page1() {
           as="h2"
           style={{ color: "purple", textAlign: "center", margin: 20 }}
         ></Header>
-
-        {/* <TypeIt
-          getBeforeInit={(instance) => {
-            instance
-              .type("news")
-              .pause(500)
-              .delete(4)
-              .type("செய்தி")
-              .pause(500)
-              .delete(6)
-              .type("noticias")
-              .pause(500)
-              .delete(8)
-              .type("Новости")
-              .pause(500)
-              .delete(7)
-              .type("նորություններ")
-              .pause(500)
-              .delete(13)
-              .type("hírek")
-              .pause(500)
-              .delete(5)
-              .type("вести")
-              .pause(500)
-              .delete(5)
-              .type("පුවත්")
-              .pause(500)
-              .delete(5)
-              .type("ozi")
-              .pause(500)
-              .delete(3)
-              .type("nuacht")
-              .pause(500)
-              .delete(6)
-              .type("뉴스")
-              .pause(500)
-              .delete(1)
-              .delete(1)
-              .type("zprávy")
-              .pause(500)
-              .delete(6)
-              .type("വാർത്ത")
-              .pause(500)
-              .delete("6")
-              .type("aħbarijiet")
-              .pause(500)
-              .delete(10)
-              .type("వార్తలు")
-              .pause(500)
-              .delete(7)
-              .type("nouvelles")
-              .pause(500)
-              .delete(9)
-              .type("vaovao")
-              .pause(500)
-              .delete(6)
-              .type("Nachrichten")
-              .pause(500)
-              .delete(11)
-              .type("news");
-            // Remember to return it!
-            return instance;
-          }}
-        /> */}
       </div>
 
       <Footer />

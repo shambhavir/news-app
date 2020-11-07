@@ -26,4 +26,3 @@ const rootElement = document.getElementById("root");
       </BrowserRouter>,
       rootElement,
     );
-// ReactDOM.render(<analogClock />, document.getElementById("root"));
