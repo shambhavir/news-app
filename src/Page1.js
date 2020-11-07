@@ -1,3 +1,4 @@
+//display/landing page 
 import { Link } from "react-router-dom";
 import React from "react";
 import TypeIt from "typeit-react";
@@ -21,7 +22,7 @@ let options = {
   minutes: 57, 
   hours: 18, 
 };
-
+//different option buttons 
 function Page1() {
   return (
     <Container>
@@ -44,7 +45,7 @@ function Page1() {
             </button>
           </Link>
         </h1>
-
+//clock displayed on the front page 
         <div
           class="clockComponent"
           style={{
@@ -79,6 +80,7 @@ function Page1() {
             fontSize: "150px",
           }}
         >
+    //typing cursor animation in different languages 
           <TypeIt
             getBeforeInit={(instance) => {
               instance
