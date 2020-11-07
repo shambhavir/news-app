@@ -69,7 +69,7 @@ class App3 extends React.Component {
 
         <SearchBar searchForTopic={this.searchForTopic} />
         <p style={{ textAlign: "center" }}>
-          Powered by <a href="https://newsapi.org/">NewsAPI.org</a>
+          Results from <a href="https://newsapi.org/">NewsAPI.org</a>
         </p>
         {loading && (
           <p style={{ textAlign: "center" }}>Fetching your daily scoop...</p>

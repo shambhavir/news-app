@@ -2274,7 +2274,7 @@ alphanum-sort@^1.0.0:
 
 analog-clock-react@^1.2.1:
   version "1.2.1"
-  resolved "https://registry.npmjs.org/analog-clock-react/-/analog-clock-react-1.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/analog-clock-react/-/analog-clock-react-1.2.1.tgz#27e7a6240cc43ce987e789c1b387bb7794876d45"
   integrity sha512-7T4LlPOR+0A8h0xrLZDH3TookCphF7lpdQ3aZldHkcteZ+6+iASz3PQ64B/TwsTK5fRdz5sz3plOTABA74L0Uw==
   dependencies:
     react "^16.7.0"
