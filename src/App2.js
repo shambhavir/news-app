@@ -1,5 +1,4 @@
 import React from "react";
-
 import { getSports} from "./api";
 import ArticleList from "./components/articleList";
 import SearchBar from "./components/searchBar";
@@ -12,14 +11,13 @@ class App2 extends React.Component {
     searchTopic: "",
     totalResults: "",
     loading: false,
-    apiError: ""
+    apiError: "" //how the article data from the API calls will be accepted and displayed 
   };
 
   searchForTopic = async topic => {
     try {
       this.setState({ loading: true });
-      const response = await getSports(topic);
-      // const response2 = await getTechnology(topic)
+      const response = await getSports(topic); //getting articles relating to sports category 
       this.setState({
         articles: response.articles,
         searchTopic: topic,
@@ -40,16 +38,13 @@ class App2 extends React.Component {
       totalResults
     } = this.state;
     return (
-
+ //below contains the searching component for articles relating to sports 
       <Container>
         <style>{'body { background-color: rgb(217, 173, 226); }'}</style>
-
         <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
         <TypeIt 
   getBeforeInit={instance => {
     instance
-
-  
       .type("explore ")
       .type("NBA results")
       .pause(500)
@@ -81,11 +76,6 @@ class App2 extends React.Component {
       </Container>
     );
   }
-
-
-
-
-
   
 }
 
