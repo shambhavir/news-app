@@ -59,7 +59,7 @@ function Page1() {
       <div></div>
       <div
         style={{
-          padding: "30px",
+          padding: "20px",
           color: "purple",
           textAlign: "center",
           margin: 20,
